@@ -1,0 +1,396 @@
+.purple-segment {
+    height: 700px;
+    width: 600px;
+    background: linear-gradient(20deg, hsl(264, 100%, 61%) 20% , hsl(293, 100%, 63%));
+    border-radius:  0 0 47% 47%;
+    position: absolute;
+    left: -120px;
+}
+
+.shadow-segment {
+    height: 700px;
+    width: 600px;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 47% 47% 0 0;
+    position: absolute;
+    right: -240px;
+    bottom: 0;
+}
+
+
+body {
+    margin: 0;
+    transform: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.phone {
+    width: 310px;
+    height: 630px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 120px auto auto 400px;
+    z-index: 2;
+    box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray-chat{
+    width: 290px;
+    height: 610px;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 2em;
+    position: relative;
+}
+
+.type {
+    background-color: hsl(0, 0%, 100%);
+    width: 270px;
+    height: 40px;
+    border-radius: 2em;
+    margin: 465px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.top-part { 
+    width: 290px;
+    height: 90px;
+    background: linear-gradient(to right, hsl(264, 100%, 61%) 20% , hsl(293, 100%, 63%));;
+    border-radius: 2em 2em 0.5em 0.5em;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+    
+.top-notch {
+    width: 160px;
+    height: 30px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 0 1.5em 1.5em;
+    
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 30px;
+    position: absolute;
+    left: 40px;
+    bottom: 15px;
+    border-style: solid;
+    border-color: white;
+}
+
+.name {
+    font-size: 15px;
+    position: absolute;
+    left: 90px;
+    bottom: 11px;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(0, 0%, 100%);
+    line-height: 2.5;
+}
+
+.available {
+    font-size: 10px;
+    position: absolute;
+    left: 90px;
+    bottom: 6px;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.arrow {
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    bottom:20px;
+}
+
+
+
+
+/* chat */
+
+
+.message1 {
+    background-color: hsl(267, 100%, 94%);
+    height: 40px;
+    width: 160px;
+    position: absolute;
+    left: 10px;
+    top: 110px;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    
+}
+
+.text1 {
+    font-size: 9px;
+    margin-left: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(289, 100%, 50%);
+    font-weight: 600;
+    line-height: 1.5;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+.message2 {
+    background-color: hsl(267, 100%, 94%);
+    height: 40px;
+    width: 160px;
+    position: absolute;
+    left: 10px;
+    top: 160px;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    
+}
+
+.text2 {
+    font-size: 9px;
+    margin-left: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(289, 100%, 50%);
+    font-weight: 600;
+    line-height: 1.5;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.message3 {
+    background-color: hsl(0, 0%, 100%);
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    right: 10px;
+    top: 280px;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.text3 {
+    font-size: 9px;
+    margin-left: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 10px;
+}
+.message4 {
+    background-color: hsl(0, 0%, 100%);
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    right: 10px;
+    top: 340px;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    
+}
+
+.text4 {
+    font-size: 9px;
+    margin-left: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 10px;
+}
+
+.message5 {
+    background-color: hsl(267, 100%, 94%);
+    height: 60px;
+    width: 170px;
+    position: absolute;
+    left: 10px;
+    top: 380px;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+
+.text5 {
+    font-size: 9px;
+    margin-left: 5px;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(289, 100%, 50%);
+    font-weight: 600;
+    line-height: 1.5;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+
+
+
+.img1 {
+    height: 50px;
+    position: absolute;
+    right: 130px;
+    top: 220px;
+    border-radius: 1em;
+}
+
+.img2 {
+    height: 50px;
+    position: absolute;
+    right: 70px;
+    top: 220px;
+    border-radius: 1em;
+}
+
+.img3 {
+    height: 50px;
+    position: absolute;
+    right: 10px;
+    top: 220px;
+    border-radius: 1em;
+}
+
+.offer1 {
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(to left, hsl(264, 100%, 61%) 20% , hsl(293, 100%, 63%));
+    position: absolute;
+    left: 10px;
+    top:450px;
+    border-radius:  0.5em 0.5em 0.5em 0.2em;
+    display: flex;
+    align-items: center;
+
+}
+
+.offer2 {
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(to left, hsl(264, 100%, 61%) 20% , hsl(293, 100%, 63%));
+    position: absolute;
+    left: 10px;
+    top:500px;
+    border-radius:  0.5em 0.5em 0.5em 0.2em;
+    display: flex;
+    align-items: center;
+
+}
+
+.price1 {
+    position: absolute;
+    right: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+
+}
+.text6 {
+    font-size: 10px;
+    margin-left: 40px;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.circle1 {
+    height: 20px; 
+    position: absolute;
+    left: 10px; 
+}
+
+
+.price2 {
+    position: absolute;
+    right: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+
+}
+.text7 {
+    font-size: 10px;
+    margin-left: 40px;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.circle2 {
+    height: 20px; 
+    position: absolute;
+    left: 10px; 
+}
+
+.type-a-message {
+    color: hsl(0, 0%, 88%);
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.button {
+    height: 27px;
+    width: 27px;
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 50%;
+    margin-left: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.arrow-right{
+    height: 15px;
+}
+
+ .text-container {
+    height: 200px;
+    width: 425px;
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    z-index: 2;
+ }
+
+ .main-heading {
+    color: hsl(271, 36%, 24%);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+ }
+
+ .main-text {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    color: gray;
+ }
+
+ .dots {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 20px;
+    bottom: 25px;
+ }
+
+
+
